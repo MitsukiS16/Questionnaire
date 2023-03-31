@@ -1,80 +1,66 @@
-1. Qual é o teu nome?
-Jessica Seixas
-Ana Albuquerque
-Cloé Albuquerque
-Ângela Guerra
-Susana Queiroz
-André Vieira
-Desidério Vidal
-Maurício Brandão
-Renato Agostinho
-Cecilio Bandeira
+1. What is your name?
+Darell Lamb
+Harvey Jordan
+Janice Howe
+Shirley Colon
+Pansy Tingey
+Davy Gilbert
+Noelle Field
+Ned Heath
+Eden Perkins
+Vivian Wood
 
-2. Que idade tens?
+2. How old are you?
 46
 44
 42
-21
+35
 55
 58
-25
+27
 32
 30
 56
 
-3. Aonde nasceste?
-Braga 
-Vila Real
-Porto
-Aveiro
-Guarda
-Coimbra
-Lisbia
-Setúbal
-Évora
-Faro
+3. Where did you born?
+China
+India
+United States
+Indonesia
+Pakistan
+Nigeria
+Brazil
+Portugal
+Russia
+Mexico
 
-4. Qual é a pessoa que és mais proxim@?
-Mãe
-Pai
-Irmão
-Irmã
-Avô
-Avó
-Prima
-Primo
-Tia
-Tio
-Vizinho
-Ninguém
+4. Which person are you closest to?
+Mother
+Father
+Brother
+Sister
+Grandmother
+Grandpather
+Spouse
+Cousin
+Aunt
+Uncle
+Neighbor
+Nobody
 
-5. Qual é a tua profissão?
-Mecânico
-Enfermeiro
-Engenheiro
-Veterinário
-Terapeuta
-Pintor
-Assitente
-Padeiro
-Artísta
-Desempregado
+5. What is you profission?
+Carpenter
+Driver
+Nurse
+Software developer
+Lawyer
+Janitor
+Bartender
+Mechanic
+Artist
+Unplowed
 
-<> random 
-
-6. Que equipamento reparaste na data do crime?
-Frigorífico
-Televisão
-Micro-ondas
-Armário
-Mesa de Cabeceira
-Cofre
-Carteira
-Computador
-Telemóvel
-Mala
-
-7. Em que dia encontraste o equipamento?
+6. When was your house roubed?
 25/junho
 29/março
 5/junho
@@ -86,34 +72,97 @@ Mala
 14/janeiro
 13/setembro
 
-<> random 
+7. When did you inform the police?
+On the same day
+The day before
+Two days before
+In the next monday
+In the next tuesday
+In the next Wednesday
+In the next Thursday
+In the next Friday
+In the next Saturday
+In the next Sunday
 
-8. Aonde encontras-te o equipamento?
-No lixo
-No meu emprego
-No chão
-No meu bairro
-Na minha cidade
-Na garagem do meu pai
-Numa venda de garagens
-Na útlima loja da rua
-No lixo da loja de baixo
+8. What was the most expensive item they roubed?
+Fridge
+TV
+Microwave
+Wardrobe
+Jewelry
+Safe
+Wallet
+PC
+Cell phone
+Suitcase
 
-9. Em que dia reparaste o equipamento?
-No dia seguinte
-Dois dias seguintes
-No fds seguinte
-Na segunda-feira seguinte
-Na terça-feira seguinte
-Na quarta-feira seguinte
-Na quinta-feira seguinte
-Na sexta-feira seguinte
-No sábado seguinte
-No domingo seguinte
+9. When did the police went to your house?
+On the same day
+The day before
+Two days before
+In the next monday
+In the next tuesday
+In the next Wednesday
+In the next Thursday
+In the next Friday
+In the next Saturday
+In the next Sunday
 
-<> random 
+10. What the police find suspicious in you garage?
+Newspapers
+Magazines
+Blood
+-
+-
+-
+-
+-
+-
+-
 
-10. Quem te ajudou a reparar o equipamento?
+11. What equipment they apprehended?
+
+
+
+
+12. When did the equipament got to your possession?
+25/junho
+29/março
+5/junho
+6/junho
+15/abril
+11/fevereiro
+27/Agosto
+29/dezembro
+14/janeiro
+13/setembro
+
+13. How long do you have that equipment?
+A few weeks
+A few months
+A few years
+1 year
+2 years
+3 years
+5 years
+10 years
+15 years
+20 years
+
+
+14. When did you repair it?
+A few weeks
+A few months
+A few years
+1 year
+2 years
+3 years
+5 years
+10 years
+15 years
+20 years
+
+15. How help you repair it?
 Ninguém
 O meu vizinho
 A minha vizinha
@@ -125,7 +174,7 @@ O meu melhor amigo
 A minha melhor amiga
 O meu chefe
 
-11. A quem constaste que estavas a reparar o equipamento?
+16. A quem constaste que estavas a reparar o equipamento?
 Ninguém
 O meu vizinho
 A minha vizinha
@@ -137,9 +186,7 @@ O meu melhor amigo
 A minha melhor amiga
 O meu chefe
 
-<> random 
-
-12. Que objeto utilizaste para reparar o equipamento?
+17. Que objeto utilizaste para reparar o equipamento?
 Martelo
 Chave de fendas
 Régua
@@ -151,7 +198,7 @@ Alicate
 Lanterna
 Fita-Cola
 
-13. Aonde reparaste o equipamento?
+18. Where did you repair it?
 Casa 
 No meu emprego
 Na minha garagem
@@ -163,30 +210,76 @@ No meu clube
 -
 -
 
-<> random 
+19. Why did you repair it?
 
-14. O que encontraste de estranho ao reparar o equipamento?
 
-15. A quem constaste sobre o que encontraste no equipamento?
 
-<> random 
+20. That equipament is a murder weapon. Did you know?
+Yes, I did
+Yes
+No
+Kind of
+Maybe
+Its possible
 
-16. Para que achas que foi utilizado o equipamento?
 
-17. Quanto tempo passou, entre reparares o equipamento e ligares à polícia?
+21. Do you know how many people were killed with that equipament?
+29
+31
+33
+34
+36
+39
+41
+48
+51
+54
 
-<> random 
+22. How many did you kill?
+0
+0-2
+2
+2-4
+4
+4-5
+5
+5-10
+10-15
+10-20
 
-18. O que a polícia te disse quando entregaste o equipamento?
+23. Why did you keep the equipament?
+Maxwell Motley made me
+Maxwell Motley forced me
+Maxwell Motley manipulated me
+My friend Maxwell made me
+My friend Maxwell forced me
+My friend Maxwell manipulated me
+Do record the good memories. 
+-
+-
+-
 
-19. O que fizeste depois de ires à polícia?
+24. Do you have more equipment suspices?
+No
+No, nothing
+Yes, a box with pictures
+Yes, a book with pictures
+Yes, a box with videos
+Yes, a pen with videos
+Yes, a box with souvenirs
+-
+-
+-
 
-<> random 
+25 Are you innocent?
+Yes, I am
+Yes
+No, sorry
+No, and i don't care
+Yes, Maxwell made me do everything
+Yes, Maxwell forced me do everything
+Yes, Maxwell manipulated me
+-
+-
+-
 
-20. Por que é que entregaste o equipamento à polícia?
-
-21. Se és inocente, por que saiste da cidade?
-
-<> random 
-
-22 Tens a certeza que és inocente?
