@@ -25,8 +25,8 @@ This
 ## Features
 
 - Menus - Main Menu, Game Menu, End Menu
-- Question - More than 20 unique question
-- Answers - More than 150 unique answers
+- Question - 25 unique question
+- Answers - More than 200 unique answers
 - Timer - Adjusts based on question-length
 - Multiple endings - based on the answers of the player
 - Custom reports - based on the answers of the player 
@@ -37,8 +37,8 @@ This
 
 ## Contributors
 
-Mário Travassos, NCGM - helped with ...
-
+Mário Travassos, participated on the development of the base structure of the application. 
+Letícia Oliveira, helped with emocional support and giving great ideas. 
 
 
 

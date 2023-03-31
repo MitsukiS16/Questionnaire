@@ -17,12 +17,12 @@ Vivian Wood
 35
 55
 58
-27
+37
 32
 30
 56
 
-3. Where did you born?
+3. Where were you born?
 China
 India
 United States
@@ -34,21 +34,19 @@ Portugal
 Russia
 Mexico
 
-4. Which person are you closest to?
-Mother
-Father
-Brother
-Sister
-Grandmother
-Grandpather
-Spouse
-Cousin
-Aunt
-Uncle
-Neighbor
+4. Which of these are you closest to?
+My mother
+My father
+My brother
+My sister
+My spouse
+My cousin
+My aunt
+My uncle
+My best friend
 Nobody
 
-5. What is you profission?
+5. What is your job?
 Carpenter
 Driver
 Nurse
@@ -58,86 +56,93 @@ Janitor
 Bartender
 Mechanic
 Artist
-Unplowed
+Unemployed
 
 6. When was your house roubed?
-25/junho
-29/março
-5/junho
-6/junho
-15/abril
-11/fevereiro
-27/Agosto
-29/dezembro
-14/janeiro
-13/setembro
+25th june
+30th may
+5th june
+6th june
+15th april
+11th february
+27th august
+29th december
+14th january
+13rd september
 
 7. When did you inform the police?
 On the same day
-The day before
-Two days before
-In the next monday
-In the next tuesday
-In the next Wednesday
-In the next Thursday
-In the next Friday
-In the next Saturday
-In the next Sunday
+The day after
+Two days after
+The monday after
+The tuesday after
+The wednesday after
+The thursday after
+The friday after
+The saturday after
+The sunday after
 
-8. What was the most expensive item they roubed?
-Fridge
+8. What was the most expensive item robbed?
+Comic book collection
 TV
 Microwave
-Wardrobe
+Radio
 Jewelry
 Safe
 Wallet
-PC
-Cell phone
+Laptop
+Cellphone
 Suitcase
 
-9. When did the police went to your house?
+9. When did the police go to your house?
 On the same day
-The day before
-Two days before
-In the next monday
-In the next tuesday
-In the next Wednesday
-In the next Thursday
-In the next Friday
-In the next Saturday
-In the next Sunday
+The day after
+Two days after
+The monday after
+The tuesday after
+The wednesday after
+The thursday after
+The friday after
+The saturday after
+The sunday after
 
-10. What the police find suspicious in you garage?
+10. What the police find suspicious in your garage?
 Newspapers
 Magazines
 Blood
--
--
--
--
--
--
--
+Multiple computers
+Pictures of children
+Map with suspicies places
+Body
+Creepy dolls
+Axe body spray
+Camara set-up
 
-11. What equipment they apprehended?
+11. What equipment did they aprehend?
+My hard drive
+My computer
+My laptop
+My books
+My album 
+My board
+My cellphone
+My diary
+My fridge
+My drugs
 
+12. When did the police aprehend it?
+25th june
+30th may
+5th june
+6th june
+15th april
+11th february
+27th august
+29th december
+14th january
+13rd september
 
-
-
-12. When did the equipament got to your possession?
-25/junho
-29/março
-5/junho
-6/junho
-15/abril
-11/fevereiro
-27/Agosto
-29/dezembro
-14/janeiro
-13/setembro
-
-13. How long do you have that equipment?
+13. How long have you had that equipment?
 A few weeks
 A few months
 A few years
@@ -148,82 +153,92 @@ A few years
 10 years
 15 years
 20 years
-
 
 14. When did you repair it?
-A few weeks
-A few months
-A few years
-1 year
-2 years
-3 years
-5 years
-10 years
-15 years
-20 years
+A few weeks ago
+A few months ago
+A few years ago
+1 year ago
+2 years ago
+3 years ago
+5 years ago
+10 years ago
+15 years ago
+20 years ago
 
-15. How help you repair it?
-Ninguém
-O meu vizinho
-A minha vizinha
-O meu pai
-O meu primo
-O meu Avô
-O meu secretário
-O meu melhor amigo
-A minha melhor amiga
-O meu chefe
+15. Who helped you repair it?
+Nobody
+My neighbour
+My parents
+My cousin
+My secretary
+My best friend
+My boss
+My former boss
+My ex
+My brother
 
-16. A quem constaste que estavas a reparar o equipamento?
-Ninguém
-O meu vizinho
-A minha vizinha
-O meu pai
-O meu primo
-O meu Avô
-O meu secretário
-O meu melhor amigo
-A minha melhor amiga
-O meu chefe
+16. Did you tell anyone about the equipement?
+Nobody
+My neighbour
+My parents
+My cousin
+My secretary
+My best friend
+My boss
+My former boss
+My ex
+My brother
 
-17. Que objeto utilizaste para reparar o equipamento?
-Martelo
-Chave de fendas
-Régua
-Cola-Quente
-Lápis
-Fita Métrica
-Serra
-Alicate
-Lanterna
-Fita-Cola
+17. What object did you use to repair the equipement?
+A hammer
+A screwdriver
+A ruler
+A hot glue
+A pencil
+A measuring tape
+A mountain range
+A pliers
+A flashlight
+An adhesive tape
 
 18. Where did you repair it?
-Casa 
-No meu emprego
-Na minha garagem
-Na garagem do meu pai
-Na loja de baixo
-Na loja do lado
-No shopping
-No meu clube
--
--
+In my house
+In my garage
+In my father's garage
+In my mother's garage
+In my neighbour's house
+At my job
+At the shop next door
+At the shop above
+At the shopping mall
+At my club
 
 19. Why did you repair it?
+To hide evidence
+To kill people
+To kill people easier
+To upgrade it
+Because it was broken
+Because somebody told me 
+Because somebody pay me 
+Because I need to use it again
+Because I was payed to
+Because I can
 
-
-
-20. That equipament is a murder weapon. Did you know?
+20. That equipment is a murder weapon. Did you know that?
 Yes, I did
 Yes
 No
 Kind of
 Maybe
-Its possible
+It's possible
+Idc
+Idk
+How dare you to assume that?
+Everything is murder weapon
 
-
-21. Do you know how many people were killed with that equipament?
+21. Do you know how many people were killed with that equipment?
 29
 31
 33
@@ -248,38 +263,38 @@ Its possible
 10-20
 
 23. Why did you keep the equipament?
-Maxwell Motley made me
-Maxwell Motley forced me
-Maxwell Motley manipulated me
-My friend Maxwell made me
-My friend Maxwell forced me
-My friend Maxwell manipulated me
-Do record the good memories. 
--
--
--
+Maxwell Motley made me do it
+Maxwell Motley forced me to do it
+Maxwell Motley manipulated me into doing it
+My friend Maxwell made me do it
+My friend Maxwell forced me to do it
+My friend Maxwell manipulated me into doing it
+To reminisce
+To reminisce my kills
+To reminisce my dear friend Maxwell
+( ͡° ͜ʖ ͡°) 
 
-24. Do you have more equipment suspices?
+24. Do you have more suspicious equipment?
 No
 No, nothing
+No, of course not
+Yes
 Yes, a box with pictures
 Yes, a book with pictures
 Yes, a box with videos
 Yes, a pen with videos
 Yes, a box with souvenirs
--
--
--
+Yes, a bath full of bodies
+( ͡° ͜ʖ ͡°) 
 
 25 Are you innocent?
 Yes, I am
 Yes
+No
 No, sorry
 No, and i don't care
 Yes, Maxwell made me do everything
-Yes, Maxwell forced me do everything
-Yes, Maxwell manipulated me
--
--
--
-
+Yes, Maxwell forced me to do everything
+Yes, Maxwell manipulated me into doing everything
+My burguer king score is one
+( ͡° ͜ʖ ͡°) 

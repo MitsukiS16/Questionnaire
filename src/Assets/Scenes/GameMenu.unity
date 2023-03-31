@@ -247,7 +247,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2113972001}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: UserSelectTrue
+        m_MethodName: clickButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -758,7 +758,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 420339533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2113972001}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: clickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &627072385
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +973,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2113972001}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: UserSelectFalse
+        m_MethodName: clickButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2563,7 +2575,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1715534987}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2113972001}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: clickButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1791000068
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,159 +3044,306 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions:
-  - question: 0
+  - question: What is your name?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 0
-  - question: 1
+    - Darell Lamb
+    - Harvey Jordan
+    - Janice Howe
+    - Shirley Colon
+    - Shirley Colon
+    - Shirley Colon
+    - Shirley Colon
+    - Shirley Colon
+    - Shirley Colon
+    - Shirley Colon
+  - question: How old are you?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 2
+    - 46
+    - 44
+    - 42
+    - 35
+    - 35
+    - 35
+    - 35
+    - 35
+    - 35
+    - 35
+  - question: Where were you born?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 3
+    - China
+    - India
+    - USA
+    - Indonesia
+    - Indonesia
+    - Indonesia
+    - Indonesia
+    - Indonesia
+    - Indonesia
+    - Indonesia
+  - question: Which person are you closest to?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 4
+    - My mother
+    - My father
+    - My brother
+    - 'My sister '
+    - My spouse
+    - My cousin
+    - My aunt
+    - My uncle
+    - My neighbor
+    - Nobody
+  - question: What is your profission?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 5
+    - Carpenter
+    - Driver
+    - Nurse
+    - Software developer
+    - Lawyer
+    - Janitor
+    - Bartender
+    - Mechanic
+    - Artist
+    - Unplowed
+  - question: When was your house roubed?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 6
+    - 25/jun
+    - 29/mar
+    - 5/jun
+    - 6/jun
+    - 15/apr
+    - 11/fev
+    - 27/aug
+    - 29/dec
+    - 14/jan
+    - 13/sep
+  - question: When did you inform the police?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 7
+    - On the same day
+    - The day before
+    - Two days before
+    - In the next monday
+    - In the next tuesday
+    - In the next wednesday
+    - In the next thursday
+    - In the next friday
+    - In the next saturday
+    - In the next sunday
+  - question: What was the most expensive item roubed?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 8
+    - Fridge
+    - TV
+    - Microwave
+    - Wardrobe
+    - Jewelry
+    - Safe
+    - Wallet
+    - Laptop
+    - Cellphone
+    - Suitcase
+  - question: When did the police went to your house?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 9
+    - On the same day
+    - The day before
+    - Two days before
+    - In the next monday
+    - In the next tuesday
+    - In the next wednesday
+    - In the next Thursday
+    - In the next friday
+    - In the next saturday
+    - In the next sunday
+  - question: What did the police find suspicious in you garage?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
-  - question: 10
+    - Pieces of newspapers
+    - Magazines
+    - Blood
+    - Multiple computers
+    - Weird photos
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+  - question: What equipment they apprehended?
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
+    - My harddrive
+    - My computer
+    - My laptop
+    - My books
+    - 'My album '
+    - My board
+    - 1
+    - 2
+    - 3
+    - 4
   - question: 11
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 12
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 13
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 14
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 15
     Answer:
-    - a1
-    - a2
-    - a3
-    - a4
-    CorrectAnswer: 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
   - question: 16
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 17
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 18
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 19
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 20
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: 21
     Answer:
     - a1
     - a2
     - a3
     - a4
-    CorrectAnswer: 1
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+  - question: 22
+    Answer:
+    - a1
+    - a2
+    - a3
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+  - question: 23
+    Answer:
+    - a1
+    - a2
+    - a3
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+  - question: Are you innocent?
+    Answer:
+    - a1
+    - a2
+    - a3
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   questionTxt: {fileID: 780913290}
+  optionButtons: []
   timeBetweenQuestions: 1
