@@ -3021,17 +3021,77 @@ MonoBehaviour:
     - 8
     - 9
   - question: How old are you?
-    answers: []
+    answers:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   - question: Where were you born?
-    answers: []
+    answers:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   - question: Which person are you closest to?
-    answers: []
+    answers:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   - question: What is your profission?
-    answers: []
+    answers:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   - question: When was your house roubed?
-    answers: []
+    answers:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
   - question: When did you inform the police?
-    answers: []
+    answers:
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
   - question: What was the most expensive item roubed?
     answers: []
   - question: When did the police went to your house?
