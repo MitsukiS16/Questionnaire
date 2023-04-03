@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 	private int offset = 3;
 	private int randomStart = 5;
 	private int currentScore = 0;
-	private int answeredQuestion = -1; // last question in questions array we have displayed
+	private int answeredQuestion = 0; // last question in questions array we have displayed
 
 	[SerializeField] private TextMeshProUGUI questionTxt;
 	[SerializeField] private TextMeshProUGUI scoreTxt;

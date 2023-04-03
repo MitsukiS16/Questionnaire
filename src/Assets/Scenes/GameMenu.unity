@@ -245,13 +245,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2113972001}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: clickButton
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -758,19 +758,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 420339533}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2113972001}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: clickButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &627072385
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,19 +958,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 746124639}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2113972001}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: clickButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &747492619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,19 +2551,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1715534987}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2113972001}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: clickButton
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1791000068
 GameObject:
   m_ObjectHideFlags: 0
@@ -3332,6 +3296,18 @@ MonoBehaviour:
     - a4
     - a4
     - a4
+  - question: 24
+    Answer:
+    - a1
+    - a2
+    - a3
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
+    - a4
   - question: Are you innocent?
     Answer:
     - a1
@@ -3345,5 +3321,10 @@ MonoBehaviour:
     - a4
     - a4
   questionTxt: {fileID: 780913290}
-  optionButtons: []
+  scoreTxt: {fileID: 0}
+  optionButtons:
+  - {fileID: 98193334}
+  - {fileID: 746124641}
+  - {fileID: 420339535}
+  - {fileID: 1715534989}
   timeBetweenQuestions: 1
