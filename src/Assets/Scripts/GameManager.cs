@@ -30,17 +30,19 @@ public class GameManager : MonoBehaviour
 		//maxScore = (questionNumber - (questionNumber / 2 + 1)) * 3; //36 // TODO: fix this formula
 		maxScore = 36;
 		SetCurrentQuestion(currentScore);
-
-		//SetOptionListerner();
+		SetOptionListener();
 
 	}
 
-	private void Update()
-	{
-		if (Input.GetButtonDown("Fire1"))
+	void SetOptionListener()
+    {
+		for (int i = 0; i < optionButtons.Length; i++)
 		{
-			ChangeQuestion();
-		}
+            optionButtons[i].onClick.AddListener(() =>
+            {
+                ChangeQuestion(); // TODO: change
+            });
+        }
 	}
 
 	void ChangeQuestion()
