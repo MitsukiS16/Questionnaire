@@ -7,6 +7,109 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
 	public Question[] questions;
+	private int questionNumber;
+	private Question currentQuestion;
+	private int? correctAnswer = null;
+	private int maxScore;
+	private int offset = 3;
+	private int randomStart = 5;
+	private int currentScore = 0;
+	private int answeredQuestion = -1; // last question in questions array we have displayed
+
+	[SerializeField] private TextMeshProUGUI questionTxt;
+	[SerializeField] private TextMeshProUGUI scoreTxt;
+
+	[SerializeField] private Button[] optionButtons;
+	[SerializeField] private float timeBetweenQuestions = 1f;
+
+
+
+	private void Start()
+	{
+		questionNumber = questions.Length - 1;
+		//maxScore = (questionNumber - (questionNumber / 2 + 1)) * 3; //36 // TODO: fix this formula
+		maxScore = 36;
+		SetCurrentQuestion(currentScore);
+
+		//SetOptionListerner();
+
+	}
+
+	private void Update()
+	{
+		if (Input.GetButtonDown("Fire1"))
+		{
+			ChangeQuestion();
+		}
+	}
+
+	void ChangeQuestion()
+	{
+		if (currentScore < (maxScore - 1))
+		{
+			bool b1 = ((currentScore % offset) == 2);
+			bool b2 = (currentScore >= randomStart);
+
+			currentScore++;
+
+			if ((b1 && b2))
+			{
+				int index = Random.Range(0, answeredQuestion);
+				SetCurrentQuestion(index);
+			}
+			else
+			{
+				answeredQuestion++;
+				SetCurrentQuestion(answeredQuestion);
+			}
+		}
+	}
+
+	void SetCurrentQuestion(int index)
+	{
+		Debug.Log(currentScore + "|" + index);
+		currentQuestion = questions[index];
+		questionTxt.text = currentQuestion.question;
+		correctAnswer = null;
+
+		// TODO: select button text
+		//int[] wrongAnswers = new int[9];
+		//int k = 0;
+		//for (int i = 0; i < 10; i++)
+		//{
+		//	if (i != currentQuestion.CorrectAnswer)
+		//	{
+		//		wrongAnswers[k] = i;
+		//		k++;
+		//	}
+		//}
+
+
+
+		//for (int i = 0; i < optionButtons.Length; i++)
+		//{
+		//	if (i == currentQuestion.CorrectAnswer)
+		//	{
+		//		optionButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.Answer[i];
+		//	}
+		//	else
+		//	{
+		//		int randomIndex = Random.Range(0, 9);
+		//		while (wrongAnswers[randomIndex] == -1)
+		//		{
+		//			randomIndex = Random.Range(0, 9);
+		//		}
+		//		optionButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.Answer[wrongAnswers[randomIndex]];
+		//		wrongAnswers[randomIndex] = -1;
+		//	}
+		//}
+
+
+		//SetRightAnswer();
+	}
+
+	/*
+	public Question[] questions;
 	private Question currentQuestion;
 	private int? correctAnswer = null; 
 	private int maxScore = 34;
@@ -24,7 +127,7 @@ public class GameManager : MonoBehaviour
 	[SerializeField] private float timeBetweenQuestions = 1f;
 
 
-/*
+
 	void Start()
 	{
         questionNumber = questions.Length;
@@ -196,7 +299,7 @@ public class GameManager : MonoBehaviour
 	}
 
 	public void clickButton(){
-		Debug.Log("I was clicked");
+		//Debug.Log(this.g);
 	}
-*/
+	*/
 }
