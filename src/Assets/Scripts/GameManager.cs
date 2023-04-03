@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -34,7 +35,15 @@ public class GameManager : MonoBehaviour
 
 	}
 
-	void SetOptionListener()
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+			SetOptionTexts();
+        }
+    }
+
+    void SetOptionListener()
     {
 		for (int i = 0; i < optionButtons.Length; i++)
 		{
@@ -69,45 +78,49 @@ public class GameManager : MonoBehaviour
 
 	void SetCurrentQuestion(int index)
 	{
-		Debug.Log(currentScore + "|" + index);
+		// set current question properties
 		currentQuestion = questions[index];
 		questionTxt.text = currentQuestion.question;
-		correctAnswer = null;
+		correctAnswer = currentQuestion.correctAnswer;
+		// select options and update buttons
+		SetOptionTexts();
+	}
 
-		// TODO: select button text
-		//int[] wrongAnswers = new int[9];
-		//int k = 0;
-		//for (int i = 0; i < 10; i++)
-		//{
-		//	if (i != currentQuestion.CorrectAnswer)
-		//	{
-		//		wrongAnswers[k] = i;
-		//		k++;
-		//	}
-		//}
+	void SetOptionTexts()
+	{
+		List<int> wrongAnswers = new List<int>();
+		for (int i = 0; i < currentQuestion.answers.Length; i++)
+		{
+			if (i != currentQuestion.correctAnswer)
+			{
+				wrongAnswers.Add(i);
+			}
+		}
 
-
-
-		//for (int i = 0; i < optionButtons.Length; i++)
-		//{
-		//	if (i == currentQuestion.CorrectAnswer)
-		//	{
-		//		optionButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.Answer[i];
-		//	}
-		//	else
-		//	{
-		//		int randomIndex = Random.Range(0, 9);
-		//		while (wrongAnswers[randomIndex] == -1)
-		//		{
-		//			randomIndex = Random.Range(0, 9);
-		//		}
-		//		optionButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = currentQuestion.Answer[wrongAnswers[randomIndex]];
-		//		wrongAnswers[randomIndex] = -1;
-		//	}
-		//}
-
-
-		//SetRightAnswer();
+		int correctBtn = Random.Range(0, 4);
+		for (int i = 0; i < optionButtons.Length; i++)
+		{
+			TextMeshProUGUI btnText = optionButtons[i].GetComponentInChildren<TextMeshProUGUI>();
+			if (i == correctBtn)
+			{
+				if (currentQuestion.correctAnswer != null)
+				{
+					btnText.text = currentQuestion.answers[(int)currentQuestion.correctAnswer];
+				}
+                else
+				{
+					int chosenAnswer = Random.Range(0, wrongAnswers.Count);
+					btnText.text = currentQuestion.answers[wrongAnswers[chosenAnswer]];
+					wrongAnswers.RemoveAt(chosenAnswer);
+				}
+			}
+			else
+			{
+				int chosenAnswer = Random.Range(0, wrongAnswers.Count);
+				btnText.text = currentQuestion.answers[wrongAnswers[chosenAnswer]];
+				wrongAnswers.RemoveAt(chosenAnswer);
+			}
+		}
 	}
 
 	/*
